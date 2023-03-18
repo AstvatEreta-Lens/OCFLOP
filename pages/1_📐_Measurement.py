@@ -25,7 +25,7 @@ if pilih == 'Daya Arus Laut':
     hitung1 = st.button('Hitung')
 
 elif pilih == 'Luas Penampang Turbin':
-    daya = st.number_input("Daya Arus Listrik (Watt) ⚡")
+    daya = st.number_input("Daya Arus Listrik (KW) ⚡")
     ocean_flow = st.number_input("Kecepatan Arus laut (m/s) 🌊")
     kerapatan_massa = st.number_input("Kerapatan Massa Air (kg/m^3) 💧", 1000, 1100 )
     Efisiensi_turbin = st.number_input("Efisiensi(%) ⚙️")
