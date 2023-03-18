@@ -27,17 +27,17 @@ def about_us():
         col1, col2, col3 = st.columns(3)
         with col1:
             st.markdown(f"<h2 style='text-align: center; font-size: 25px;'>Developer Web</h2>", unsafe_allow_html=True)
-            image1 = Image.open('image/ahmad.jpeg')
+            image1 = Image.open('image/wabil.jpg')
             st.image(image1, caption='Ahmad Al wabil', use_column_width='auto')
 
         with col2:
             st.markdown(f"<h2 style='text-align: center; font-size: 25px;'>Project Leader</h2>", unsafe_allow_html=True)
-            image2 = Image.open('image/ari2.jpeg')
+            image2 = Image.open('image/ari.jpg')
             st.image(image2, caption='Ari Aprilianto Satriyo', use_column_width='auto')
 
         with col3:
             st.markdown(f"<h2 style='text-align: center; font-size: 25px;'>Support System</h2>", unsafe_allow_html=True)
-            image3 = Image.open('image/ozi.jpeg')
+            image3 = Image.open('image/oji.jpg')
             st.image(image3, caption='Ahmad Arroziqi', width=400, use_column_width='auto')
 
     st.markdown("<hr style='margin-top: 10px;'>", unsafe_allow_html=True)
