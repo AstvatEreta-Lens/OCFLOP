@@ -13,7 +13,7 @@ data1 = pd.read_csv('data/KecepatanArus_Bulan12.csv')
 data2 = pd.read_csv('data/KecepatanArusLaut_Bulan1.csv')
 data3 = pd.read_csv('data/KecepatanArusLaut_Bulan2.csv')
 st.subheader("Tambah Data")
-tahun = st.number_input("Tahun")
+tahun = int(st.number_input("Tahun"))
 bulan = st.number_input("Bulan")
 data = st.file_uploader("Unggah file CSV")
 
