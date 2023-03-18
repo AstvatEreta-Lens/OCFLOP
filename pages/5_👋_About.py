@@ -38,7 +38,8 @@ def about_us():
         with col3:
             st.markdown(f"<h2 style='text-align: center; font-size: 25px;'>Support System</h2>", unsafe_allow_html=True)
             image3 = Image.open('image/oji.jpg')
-            st.image(image3, caption='Ahmad Arroziqi', width=100px, use_column_width='auto')
+            new_image3 = image3.resize((300,400))
+            st.image(new_image3, caption='Ahmad Arroziqi', use_column_width='auto')
 
     st.markdown("<hr style='margin-top: 10px;'>", unsafe_allow_html=True)
     st.subheader("Dosen Pembimbing")
