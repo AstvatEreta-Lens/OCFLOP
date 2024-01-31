@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image
 
+# Check if the default app has been initialized
+
 st.set_page_config(
     page_title="Home",
     page_icon="🏠"

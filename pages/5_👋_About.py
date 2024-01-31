@@ -15,7 +15,7 @@ def about_us():
             di bawah lisensi Framework Streamlit.<br></strong>
             Streamlit v1.17.0<br>
             https://streamlit.io<br>
-            Copyright 2023 Snowflake Inc. All rights reserved.<br>
+            Copyright 2024 Snowflake Inc. All rights reserved.<br>
 
         """, unsafe_allow_html=True
     )
@@ -40,15 +40,6 @@ def about_us():
             image3 = Image.open('image/ozi.jpeg')
             st.image(image3, caption='Ahmad Arroziqi', width=400, use_column_width='auto')
 
-    st.markdown("<hr style='margin-top: 10px;'>", unsafe_allow_html=True)
-    st.subheader("Dosen Pembimbing")
-    container2 = st.container()
-    with container2:
-        col4 = st.columns(1)[0]
-        with col4:
-            st.markdown(f"<h2 style='text-align: left; font-size: 25px;'>Pembimbing</h2>", unsafe_allow_html=True)
-            image4 = Image.open('image/drAriana.jpg')
-            st.image(image4, caption='Dr. Ariana Yunita',width= 230)
 
 if __name__ == '__main__' :
     about_us()
